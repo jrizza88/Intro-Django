@@ -121,7 +121,7 @@ Create an app with `django-admin startapp [name_of_app]`
 Verify that the [name_of_app] subdirectory has been created
 
 Test by navigating to the project folder root/[name_of_project] and running
-`./manage.py runserver`
+`./manage.py runserver` in the Virtual Environment (VE)
 
 * This should launch the animated rocket default page
 * Take note of the warning about unapplied migrations. We will fix that in a moment
